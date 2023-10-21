@@ -4,8 +4,9 @@
 }
 
 body {
-  background: url(/BG.jpg);
-  background-color: #111827;
+  background: url(../BG.jpg);
+  /* background-color: #111827; */
+  background-color: #2e2c4a;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -78,6 +79,11 @@ body {
   border-radius: 100px;
 }
 
+.logo img:hover {
+  transform: rotate(360deg);
+  transition: 0.8s;
+}
+
 /* testing */
 .nav-bar {
   /* background-color: rgb(87, 84, 81); */
@@ -90,7 +96,9 @@ body {
 .imm img {
   width: 220px;
 }
-
+.sec-1 {
+  height: 100vh;
+}
 .description {
   text-align: center;
   padding: 80px;
@@ -189,33 +197,64 @@ body {
   transition: 0.3s;
 }
 
-/* .products {
+.prdct {
+  height: 70vh;
+}
+
+.products {
   color: rgb(208, 50, 50);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   column-gap: 21px;
-  padding-top: 400px;
+  /* padding-top: 400px; */
   padding-bottom: 100px;
-  margin: 100px;
+  margin: 50px;
   margin-top: -50px;
 }
 
-.r{
-  display: flex;
+.r {
+  display: block;
   column-gap: 24px;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(252, 255, 251);
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  /* height: 320px; */
 }
-.products img {
-  width: 300px;
+.r img {
+  /* width: 300px; */
+  /* margin-top: 10px; */
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.r img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  filter: brightness(90%)
+}
+.r p {
+  background-color: #e3eff5;
+  color: #b1711e;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+/* .item-1{
+  width: 320px;
+  height: 320px;
 } */
 
 .item-desc li {
   list-style: none;
-  font-size: 28px;
-  line-height: 4rem;
+  font-size: 18px;
+  line-height: 2rem;
 }
 
 .products-description {
@@ -247,6 +286,8 @@ html {
     display: none;
   }
 }
+
+/* slidereeeeeeer */
 
 /* slider */
 
