@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(../BG.jpg);
+  background: url(../images/BG.jpg);
   /* background-color: #111827; */
   background-color: #2e2c4a;
   background-size: cover;
@@ -237,7 +237,7 @@ body {
 .r img:hover {
   transform: scale(1.05);
   transition: 0.3s;
-  filter: brightness(90%)
+  filter: brightness(90%);
 }
 .r p {
   background-color: #e3eff5;
